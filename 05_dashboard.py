@@ -59,10 +59,6 @@ pred_df, rec_df, fi_df, model_meta = load_data()
 
 # ─── Sidebar ──────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image(
-        "https://img.icons8.com/color/96/supply-chain.png",
-        width=72,
-    )
     st.title("Supply Chain DSS")
     st.caption("AI-Powered Decision Support System")
     st.divider()
